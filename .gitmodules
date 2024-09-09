@@ -1,0 +1,3 @@
+[submodule "repo/signalSlot"]
+	path = repo/signalSlot
+	url = git@github.com:npdib/signalSlot.git
