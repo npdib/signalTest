@@ -1,6 +1,4 @@
-repo/.vs/
-repo/signalTestMain/x64/
-repo/x64/
-repo/signalTestMain/signalTestMain.vcxproj
-repo/signalTestMain/signalTestMain.vcxproj.filters
-repo/signalTestMain/signalTestMain.vcxproj.user
+.vs/
+build/
+signalTestMain/signalTestMain.vcxproj.filters
+signalTestMain/signalTestMain.vcxproj.user
