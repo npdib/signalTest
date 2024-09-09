@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "signalTestMain", "signalTestMain\signalTestMain.vcxproj", "{EDCE6D8F-9604-4C2A-813C-7B8D96213FA0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "signalSlot", "signals\signalSlot.vcxproj", "{6EF4B29C-887C-4AF2-B14F-3B84FDF4383F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{EDCE6D8F-9604-4C2A-813C-7B8D96213FA0}.Release|x64.Build.0 = Release|x64
 		{EDCE6D8F-9604-4C2A-813C-7B8D96213FA0}.Release|x86.ActiveCfg = Release|Win32
 		{EDCE6D8F-9604-4C2A-813C-7B8D96213FA0}.Release|x86.Build.0 = Release|Win32
+		{6EF4B29C-887C-4AF2-B14F-3B84FDF4383F}.Debug|x64.ActiveCfg = Debug|x64
+		{6EF4B29C-887C-4AF2-B14F-3B84FDF4383F}.Debug|x64.Build.0 = Debug|x64
+		{6EF4B29C-887C-4AF2-B14F-3B84FDF4383F}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EF4B29C-887C-4AF2-B14F-3B84FDF4383F}.Debug|x86.Build.0 = Debug|Win32
+		{6EF4B29C-887C-4AF2-B14F-3B84FDF4383F}.Release|x64.ActiveCfg = Release|x64
+		{6EF4B29C-887C-4AF2-B14F-3B84FDF4383F}.Release|x64.Build.0 = Release|x64
+		{6EF4B29C-887C-4AF2-B14F-3B84FDF4383F}.Release|x86.ActiveCfg = Release|Win32
+		{6EF4B29C-887C-4AF2-B14F-3B84FDF4383F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

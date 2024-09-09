@@ -2,10 +2,11 @@
 //
 
 #include <iostream>
+#include "signalSlot.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << testFn();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
