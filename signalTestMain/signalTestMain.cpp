@@ -2,17 +2,21 @@
 //
 
 #include <iostream>
+#include <string>
 
 #include "Signal.h"
 #include "SignalMain.h"
 
 int main()
 {
-    Signal<int> test;
+    npdib::Signal<int, std::string> test;
 
-    test.call();
+    test.connect([](int foo, std::string bar) { std::cout << "int:\t" << foo << "\t\tstring:\t" << bar << "\n"; });
+    test.connect([](int foo, std::string bar) { std::cout << "this is a second function which took " << foo * 2 << " / 2 and " << bar << "\n"; });
 
-    test.emit();
+    test.emit(6, "giraffe");
+    test.run(4, "potato");
 
-    SignalMain::get().run();
+
+    npdib::SignalMain::get().run();
 }
