@@ -1,0 +1,6 @@
+repo/.vs/
+repo/signalTestMain/x64/
+repo/x64/
+repo/signalTestMain/signalTestMain.vcxproj
+repo/signalTestMain/signalTestMain.vcxproj.filters
+repo/signalTestMain/signalTestMain.vcxproj.user
